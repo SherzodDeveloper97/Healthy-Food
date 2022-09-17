@@ -1,0 +1,73 @@
+/* footer style - open */
+footer{
+    /* margin-top: 200px; */
+    background: #252525;
+    padding-top: 8.5625rem;
+    padding-bottom: 6.5rem;
+}
+.footer_block,.footer_content2{
+    display:flex;
+}
+.footer_content1{
+    display:flex;
+    margin-right: 11.625rem;
+}
+.footer_logo{
+    margin-right: 7.625rem;
+}
+.footer_logo img{
+    margin-bottom: 1.5625rem;
+}
+.item a{
+    display: block;
+}
+.item a,.home_item p,.footer_menu_item p,.company_item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.item a:not(:last-child){
+    padding-bottom: 1.0625rem;
+}
+.item a:hover{
+    text-decoration: underline;
+    transition: all 0.4s linear;
+    opacity: 1;
+}
+.home_item p:hover,.footer_menu_item p:hover,.company_item p:hover{
+    opacity: 1;
+}
+.footer_menu{
+    margin-right: 11.625rem;
+}
+.home h6,.footer_menu h6,.company h6{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 1.625rem;
+}
+.home_item p:not(:last-child),.footer_menu_item p:not(:last-child),.company_item p:not(:last-child){
+    padding-bottom: 1.25rem;
+}
+.company_socials{
+    margin-top: 1.5rem;
+}
+.company_socials ul{
+    display: flex;
+}
+.company_socials ul li:not(:last-child){
+    padding-right: 0.625rem;
+}
+/* footer style - close */

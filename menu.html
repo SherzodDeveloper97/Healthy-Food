@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link rel="icon" href="images/fast-food-burger-1.svg" type="images/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/share.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu_item.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <div class="box">
+        <a href="#" class="to_top">
+            <svg width="36px" height="36px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet"><path fill="#DC780B" d="M36 32a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v28z"></path><path fill="#FFF" d="M22 29v-9h7L18 7L7 20h7v9z"></path></svg>
+        </a>
+    </div>
+
+    <div class="modal_container_big">
+        <div class="modal_container">
+            <div class="modal_login_form">
+                <div class="title_text">
+                    <div class="title title_login">Login Form</div>
+                    <div class="title title_signUp">Signup Form</div>
+                </div>
+                <div class="form_container">
+                    <div class="slide_controls">
+                        <input type="radio" name="slider" id="login" checked>
+                        <input type="radio" name="slider" id="signup">
+                        <label for="login" class="slide login_item">Log&nbspin</label>
+                        <label for="signup" class="slide signup">Sign&nbspUp</label>
+                        <div class="slide_tab"></div>
+                    </div>
+                    <div class="form_inner">
+                        <form action="#" class="login_form">
+                            <div class="field">
+                                <input type="text" placeholder="Email Address" name="email" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Password" name="email" required>
+                            </div>
+                            <div class="pass_link"><a href="#">Forgot password?</a></div>
+                            <div class="field">
+                                <input type="submit" value="Login" name="login_other" id="">
+                            </div>
+                            <div class="signup_link">Not a member? <a href="#">Signup now</a></div>
+                        </form>
+                        <form action="#" class="signup">
+                            <div class="field">
+                                <input type="text" placeholder="Email Address" name="email" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Password" name="email" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Confirm password" name="email" required>
+                            </div>
+                            <div class="field">
+                                <input type="submit" value="Signup" name="signup" id="">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="close_icon">
+                    <img src="images/close.png" alt="close icon" class="close">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_content">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="food logo" title="food logo">
+                </a>
+            </div>
+            <!-- humburger menu navbar - open -->
+            <div class="humburger_menu">
+                <input type="checkbox" name="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <div class="menu_btn">
+                        <div class="menu_btn__burger"></div>
+                    </div>                    
+                </label>
+                <div class="header_item">
+                    <div class="menu">
+                        <ul>
+                            <li class="navbar"><a href="index.html">Home</a></li>
+                            <li class="navbar"><a href="about.html">About us</a></li>
+                            <li class="navbar"><a href="menu.html" class="active">Menu</a></li>
+                            <li class="navbar"><a href="features.html">Features</a></li>
+                            <li class="navbar"><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header_buttons">
+                        <div class="login">
+                            Login
+                        </div>
+                        <div class="order_now">
+                            <a href="cart.html">
+                                <img src="images/shopping-cart-svgrepo-com.svg" class="shop" alt="shopping">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- humburger menu navbar - close -->
+        </div>
+    </div>
+
+    <!-- menu-food - open -->
+    <div class="menu_food" id="menu">
+        <div class="container">
+            <div class="menu_food_title">
+                <h6>Menu</h6>
+                <h4>Food Full of treaty Love</h4>
+                <p>There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls<br> with Persons but also specialized equipment, Skills to manage Customers, </p>
+            </div>
+            <div class="menu_food_block">
+                <div class="one_line">
+                    <div class="menu_food_content">
+                        <img src="images/xawo3chvne.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Vegie Muffen</h5>
+                                <h5>16$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/tmrjigyd3v.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Salads</h5>
+                                <h5>12$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/5n8cjhxwsh 1.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Burger</h5>
+                                <h5>10$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two_line">
+                    <div class="menu_food_content">
+                        <img src="images/sizf4vpaqn.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Delmonico Steak dish</h5>
+                                <h5>14$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/ba5inq7loc 1.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Egg Masala</h5>
+                                <h5>9$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/cckmdgis9j 1.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Peach Melba dish</h5>
+                                <h5>15$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="learn_more actual">Learn More</a>
+            <div class="menu_food_block menu_food_more hidden">
+                <div class="one_line">
+                    <div class="menu_food_content">
+                        <img src="images/xawo3chvne.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Vegie Muffen</h5>
+                                <h5>16$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/tmrjigyd3v.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Salads</h5>
+                                <h5>12$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/5n8cjhxwsh 1.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Burger</h5>
+                                <h5>10$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two_line">
+                    <div class="menu_food_content">
+                        <img src="images/sizf4vpaqn.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Delmonico Steak dish</h5>
+                                <h5>14$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/ba5inq7loc 1.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Egg Masala</h5>
+                                <h5>9$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_food_content">
+                        <img src="images/cckmdgis9j 1.png" alt="food_image">
+                        <div class="menu_food_info">
+                            <div class="info_title">
+                                <h5>Peach Melba dish</h5>
+                                <h5>15$</h5>
+                            </div>
+                            <div class="info_text">
+                                <p>There are many things are needed to start<br> the Fast Food Business.</p>
+                            </div>
+                            <div class="info_block">
+                                <div class="rectangle_vector">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.74868 6.74868V12H5.25132V6.74868H0V5.25132H5.25132V0H6.74868V5.25132H12V6.74868H6.74868Z" fill="white"/>
+                                    </svg>
+
+                                </div>
+                                <div class="stars">
+                                    <span data-star="0" class="ic ic_star"></span>
+
+                                    <span data-star="1" class="ic ic_star"></span>
+
+                                    <span data-star="2" class="ic ic_star"></span>
+
+                                    <span data-star="3" class="ic ic_star"></span>
+
+                                    <span data-star="4" class="ic ic_star"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu-food - close -->
+
+        <!-- footer - open -->
+        <footer>
+            <div class="container">
+                <div class="footer_block">
+                    <div class="footer_content1">
+                        <div class="footer_logo">
+                            <a href="./index.html"><img src="images/footer logo.svg" alt="logo"></a>
+                            <div class="item">
+                                <a href="#">www.company name.com</a>
+                                <a href="#">companyname@gmail.com</a>
+                                <a href="#">Phone: +7 485-118-03-25</a>
+                            </div>
+                        </div>
+                        <div class="home">
+                            <h6>Home</h6>
+                            <div class="home_item">
+                                <p>Landingpage</p>
+                                <p>Documentation</p>
+                                <p>Referral Program</p>
+                                <p>UI & UX Design</p>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_content2">
+                        <div class="footer_menu">
+                            <h6>Menu</h6>
+                            <div class="footer_menu_item">
+                                <p>Landingpage</p>
+                                <p>Documentationp
+                                <p>Referral Program</p>
+                                <p>UI & UX Design</p>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                        <div class="company">
+                            <h6>Company</h6>
+                            <div class="company_item">
+                                <p>Landingpage</p>
+                                <p>Documentation</a>
+                                <p>Referral Program</a>
+                            </div>
+                            <div class="company_socials">
+                                <ul>
+                                    <li><a href="#"><img src="images/instagram.svg" alt="instagram icon"></a></li>
+                                    <li><a href="#"><img src="images/facebook.svg" alt="facebook icon"></a></li>
+                                    <li><a href="#"><img src="images/twitter.svg" alt="twitter icon"></a></li>
+                                    <li><a href="#"><img src="images/youtube.svg" alt="youtube icon"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- footer - close -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

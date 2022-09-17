@@ -1,0 +1,102 @@
+/* contact style - open */
+.contact{
+    background: rgba(220, 120, 11, .1);
+}
+.contact .container{
+    padding-top: 7.1875rem;
+    padding-bottom: 7.3125rem;
+}
+.contact_title{
+    text-align: center;
+    margin-bottom: 2.875rem;
+}
+.contact_title h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    opacity: 0.7;
+    text-transform: uppercase;
+    padding-bottom: 0.9375rem;
+}
+.contact_title h4{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #150C01;
+}
+.contact_form .form{
+    position: relative;
+    text-align: center;
+}
+.input_click{
+    padding: 2rem 12.1875rem 2rem 2rem;
+    width: 750px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 0.625rem;
+    border: 1px solid #fff;
+    font-size: 1.125rem;
+    outline: none;
+}
+.input_click.active_input{
+    animation-name: focus-animation;
+    animation-duration:2s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    transition: all 0.5s linear;
+    /* box-sizing: border-box; */
+}
+.contact_form .form input[type=text]:focus{
+    border-color:#f6a855;
+}
+@keyframes focus-animation{
+    from{
+        border: 1px solid #fff;
+    }
+    to{
+        border: 1px solid #f6a855;
+    }
+}
+.contact_form .form input[type=text]::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    opacity: 0.5;
+}
+.contact_form .form button[type=submit]{
+    padding: 1.875rem 3.5625rem;
+    height: 75px;
+    box-sizing: border-box;
+    background: #DC780B;
+    border-radius: 0.625rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 41px; */
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    position:absolute;
+    top: 0;
+    right: 194px;
+    border: 0px solid #DC780B;
+    vertical-align: middle;
+    cursor: pointer;
+}
+/* contact style - close */
+
